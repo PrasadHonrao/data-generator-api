@@ -7,6 +7,7 @@ services:
     image: generator:latest
     ports:
       - "8090:80"
+    restart: unless-stopped
   mail:
     image: mailhog/mailhog
     ports:
