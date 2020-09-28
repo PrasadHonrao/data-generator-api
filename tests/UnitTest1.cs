@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using api.Controllers;
 using Xunit;
